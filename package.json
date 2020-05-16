@@ -1,0 +1,22 @@
+{
+  "name": "ev3dev-discover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "node out/index.js"
+  },
+  "author": "ev3dev, Andreas Olofsson",
+  "license": "ISC",
+  "dependencies": {
+    "avahi-dbus": "^0.1.0",
+    "bonjour": "^3.5.0",
+    "dbus-native": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/bonjour": "^3.5.6",
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  }
+}
